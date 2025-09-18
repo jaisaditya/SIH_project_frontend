@@ -1,0 +1,8 @@
+/* If your project needed @tailwind directives, keep them or keep @import as you had it. */
+@import "tailwindcss";
+
+/* simple helpers used by components */
+.header-gradient {
+  background: linear-gradient(90deg, #1473FF 0%, #00C48C 100%);
+}
+.shadow-soft { box-shadow: 0 6px 20px rgba(14,40,60,0.06); }
