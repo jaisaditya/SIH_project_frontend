@@ -1,6 +1,6 @@
 // frontend/src/components/Sidebar.jsx
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , NavLink} from "react-router-dom";
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
 
 export default function Sidebar({ onNavigate }) {
@@ -41,6 +41,9 @@ export default function Sidebar({ onNavigate }) {
           <Link onClick={() => handleClick("Patients")} to="/patients" className="block px-3 py-2 rounded hover:bg-slate-100">
             Patients
           </Link>
+
+         <NavLink className="block px-3 py-2 rounded hover:bg-slate-100" to={'/ai'}>AI Assistance</NavLink>
+         
         </nav>
 
         <div className="mt-12">

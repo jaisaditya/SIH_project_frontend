@@ -23,6 +23,7 @@ import ConsultationChat from "./pages/ConsultationChat";
 import DoctorConsultationChat from "./pages/DoctorConsultationChat";
 import ConsultationVideo from "./pages/ConsultationVideo";
 import DoctorConsultationVideo from "./pages/DoctorConsultationVideo";
+import ChatAssistant from './pages/ChatAssistant';
 
 export default function App() {
   return (
@@ -51,6 +52,7 @@ export default function App() {
             <Route path="/doctor/dashboard" element={<DoctorDashboard />} />
             <Route path="/doctor/consultations/:id/chat" element={<DoctorConsultationChat />} />
             <Route path="/doctor/consultations/:id/video" element={<DoctorConsultationVideo />} />
+            <Route path="/ai" element={<ChatAssistant />} />
 
           </Route>
 
