@@ -27,8 +27,10 @@ export default function ConsultationVideo() {
     }
 
     // create socket connection for this component only
-    const socket = io("http://localhost:5000");
+    // const socket = io("http://localhost:5000");
+      const socket = io("https://sih-project-backend-nu.vercel.app");
     socketRef.current = socket;
+    
 
     socket.on("connect", () => console.log("[Patient] socket connected", socket.id));
     socket.on("connect_error", (err) => console.error("[Patient] socket connect_error", err));
