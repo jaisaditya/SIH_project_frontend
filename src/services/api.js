@@ -1,9 +1,14 @@
 // frontend/src/services/api.js
 import axios from "axios";
 
+// const API = axios.create({
+//   baseURL: "http://localhost:5000/api",
+// });
+
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://sih-project-backend-nu.vercel.app/api",
 });
+
 
 API.interceptors.request.use((config) => {
   const role = config.role || "user"; // 'user' | 'doctor' | 'pharmacy'
