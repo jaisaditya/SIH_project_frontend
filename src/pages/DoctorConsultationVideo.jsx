@@ -24,7 +24,8 @@ export default function DoctorConsultationVideo() {
       return;
     }
 
-    const socket = io("http://localhost:5000");
+    // const socket = io("http://localhost:5000");
+       const socket = io("https://sih-project-backend-nu.vercel.app");
     socketRef.current = socket;
 
     socket.on("connect", () => console.log("[Doctor] socket connected", socket.id));
