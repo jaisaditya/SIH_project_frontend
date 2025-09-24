@@ -28,7 +28,7 @@ export default function ConsultationVideo() {
 
     // create socket connection for this component only
     // const socket = io("http://localhost:5000");
-      const socket = io("https://sih-project-backend-7l8d.onrender.com/");
+      const socket = io("https://sih-project-backend-7l8d.onrender.com");
     socketRef.current = socket;
     
 
