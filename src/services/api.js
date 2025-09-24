@@ -6,7 +6,7 @@ import axios from "axios";
 // });
 
 const API = axios.create({
-  baseURL: "https://sih-project-backend-7l8d.onrender.com//api",
+  baseURL: "https://sih-project-backend-7l8d.onrender.com/api",
 });
 
 
