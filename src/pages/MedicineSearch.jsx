@@ -4,7 +4,7 @@ import { fetchMedicines } from "../services/api";
 import { io } from "socket.io-client";
 
 // const SOCKET_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
-const SOCKET_URL = import.meta.env.VITE_API_URL || "https://sih-project-backend-nu.vercel.app";
+const SOCKET_URL = import.meta.env.VITE_API_URL || "https://sih-project-backend-7l8d.onrender.com";
 export default function MedicineSearch() {
   const [medicines, setMedicines] = useState([]);
   const [filters, setFilters] = useState({});
