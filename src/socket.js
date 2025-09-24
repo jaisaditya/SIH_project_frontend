@@ -2,7 +2,8 @@
 import { io } from "socket.io-client";
 
 // ⚠️ Replace with your backend URL (http://localhost:5000 in dev)
-const SOCKET_URL = "http://localhost:5000";
+// const SOCKET_URL = "http://localhost:5000";
+const SOCKET_URL = "https://sih-project-backend-nu.vercel.app";
 
 const socket = io(SOCKET_URL, {
   transports: ["websocket"],
