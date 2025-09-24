@@ -26,7 +26,7 @@ export default function DoctorConsultationVideo() {
     }
 
     // const socket = io("http://localhost:5000");
-       const socket = io("https://sih-project-backend-7l8d.onrender.com");
+      // const socket = io("https://sih-project-backend-7l8d.onrender.com");
     socketRef.current = socket;
 
     socket.on("connect", () => console.log("[Doctor] socket connected", socket.id));
@@ -93,7 +93,7 @@ export default function DoctorConsultationVideo() {
       socket.off("answer");
       socket.off("ice-candidate");
       socket.off("end-call");
-      socket.disconnect();
+      //socket.disconnect();
       _endCall(true);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
