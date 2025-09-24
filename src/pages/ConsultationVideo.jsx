@@ -1,7 +1,8 @@
 // frontend/src/pages/ConsultationVideo.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
-import io from "socket.io-client";
+//import io from "socket.io-client";
+import socket from "../socket";
 import { getCurrentIdentity } from "../utils/auth";
 
 const PC_CONFIG = { iceServers: [{ urls: "stun:stun.l.google.com:19302" }] };
