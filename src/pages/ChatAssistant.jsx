@@ -8,7 +8,7 @@ const ChatAssistant = () => {
   const [loading, setLoading] = useState(false);
 
   // const API_BASE = "http://localhost:5000/api/ai"; 
-  const API_BASE = "https://sih-project-backend-7l8d.onrender.com//api/ai";
+  const API_BASE = "https://sih-project-backend-7l8d.onrender.com/api/ai";
 
   const addMessage = (role, content) => {
     setMessages((prev) => [...prev, { role, content }]);
