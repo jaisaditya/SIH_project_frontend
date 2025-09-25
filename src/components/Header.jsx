@@ -24,7 +24,7 @@ export default function Header({ onOpenSidebar }) {
             </button>
           </div>
 
-          <div className="text-xl font-semibold">Nabha Health</div>
+          <div className="text-xl font-semibold">HealthSetu</div>
         </div>
 
         <div className="flex items-center gap-6">
