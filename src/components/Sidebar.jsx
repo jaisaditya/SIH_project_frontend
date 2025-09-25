@@ -20,7 +20,7 @@ export default function Sidebar({ onNavigate }) {
             NH
           </div>
           <div>
-            <h3 className="text-lg font-bold">Nabha Health</h3>
+            <h3 className="text-lg font-bold">HealthSetu</h3>
             <p className="text-sm text-slate-500">Healthcare for Rural Punjab</p>
           </div>
         </div>
